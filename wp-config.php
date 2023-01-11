@@ -13,6 +13,7 @@ define('AUTH_SALT',        $_SERVER['AUTH_SALT']);
 define('SECURE_AUTH_SALT', $_SERVER['SECURE_AUTH_SALT']);
 define('LOGGED_IN_SALT',   $_SERVER['LOGGED_IN_SALT']);
 define('NONCE_SALT',       $_SERVER['NONCE_SALT']);
+define('WP_ALLOW_MULTISITE', true );
 $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
